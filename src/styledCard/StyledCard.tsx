@@ -14,18 +14,16 @@ type StyledCardPropsType = {
 
 export function StyledCard(props: StyledCardPropsType) {
     return (
-        <div>
             <Card>
                 <Image src={props.src} alt=""/>
                     <Title>{props.title}</Title>
                     <Text>{props.text}</Text>
-                        <Box>
-                            <StyledButton type="primary">See more</StyledButton>
-                            <StyledButton type="secondary">Save</StyledButton>
-                            {/*<SubButton>Save</SubButton>*/}
-                        </Box>
+                    <Box>
+                        <StyledButton type="primary">See more</StyledButton>
+                        <StyledButton type="secondary">Save</StyledButton>
+                        {/*<SubButton>Save</SubButton>*/}
+                    </Box>
             </Card>
-        </div>
     )
 
 }

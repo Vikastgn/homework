@@ -6,6 +6,9 @@ export const Card = styled.div`
   padding: 10px;
   box-sizing: border-box;
   margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px;
+  border-radius: 10px;
 `
 
 // export const Card = styled.article.attrs( ({src, title, text}) =>({
